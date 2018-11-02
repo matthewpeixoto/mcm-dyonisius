@@ -1,0 +1,39 @@
+.html-side-scroll {
+  background-color: #000;
+
+  color: #666;
+}
+
+.scroll-section {
+  z-index: -1000;
+}
+
+.s-scroll-vertical {
+  transform: translateX(0) !important;
+}
+
+.section-hero {
+  background-color: #F1B739;
+  width: 100vw;
+}
+
+.section-2 {
+  background: #f2f2f2;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .scroll-wrapper {
+    height: 20000px;
+  }
+
+  .scroll-section {
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 20000px;
+    z-index: -1000;
+  }
+
+}
